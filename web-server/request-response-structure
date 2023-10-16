@@ -1,0 +1,30 @@
+# --------------------------- Request Structure for Simple GET Request -------------------------------------------
+> GET / HTTP/1.1
+> Host: localhost:8080
+> User-Agent: curl/8.2.1
+> Accept: */*
+
+
+# --------------------------- Response Structure for Simple GET Request -------------------------------------------
+< HTTP/1.1 200 OK
+< accept-ranges: bytes
+< cache-control: max-age=3600
+< last-modified: Sun, 15 Oct 2023 13:16:30 GMT
+< etag: W/"3659174697912096-232-2023-10-15T13:16:30.519Z"
+< content-length: 232
+< content-type: text/html; charset=UTF-8
+< Date: Sun, 15 Oct 2023 13:16:59 GMT
+< Connection: keep-alive
+< Keep-Alive: timeout=5
+<
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Existing Page</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+</body>
+</html>
